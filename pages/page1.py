@@ -26,7 +26,7 @@ def page1():
         st.write("   ")
         st.write("   ")
         st.write("   ")
-        st.button("Anterior")
+        st.button("Back")
     with col1:
         st.title("Ballena Sei o boreal")
         st.image("./photos/image1.jpg")
@@ -102,6 +102,6 @@ def page1():
         st.write("   ")
         st.write("   ")
         st.write("   ")
-        st.button("Siguiente")
+        st.button("Next")
         
 page1()
