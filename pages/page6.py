@@ -43,7 +43,7 @@ def page1():
             st.write("-Aguas oceánicas y en lugares cercanos a las costas")
         st.write("   ")
         st.write("   ")
-        st.write("Aquí puede escuchar el sonido de la ballena Zifio de Gervais:")
+        st.write("Aquí puede escuchar el sonido de la ballena de esperma:")
         st.audio("./sounds/Cachalote.mp3",start_time=0)
         
         
