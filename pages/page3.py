@@ -46,7 +46,7 @@ def page3():
             st.write("-Se suelen distinguir poblaciones en función de su localización, siendo las tres más importantes las presentes en el Atlántico norte, las del hemisferio sur y las del Pacífico norte. No es común que las poblaciones de diferentes lugares interaccionen entre ellas")
         st.write("   ")
         st.write("   ")
-        st.write("Aquí puede escuchar el sonido de la ballena boreal:")
+        st.write("Aquí puede escuchar el sonido de la ballena jorobada:")
         st.audio("./sounds/jorobada.m4a",start_time=0)
         
         

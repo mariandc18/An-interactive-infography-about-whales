@@ -49,7 +49,7 @@ def page2():
             st.write("- Costas")
         st.write("   ")
         st.write("   ")
-        st.write("Aquí puede escuchar el sonido de la ballena boreal:")
+        st.write("Aquí puede escuchar el sonido del rorcual común:")
         st.audio("./sounds/rorcual_comun.mp3",start_time=0)
         
         
