@@ -1,6 +1,6 @@
 import streamlit as st
 
-def page1():
+def page15():
     col0,col1, col2, col3= st.columns([1,6,6,1])
     with col0:
         for _ in range(20):
