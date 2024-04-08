@@ -51,7 +51,7 @@ def page6():
         
         with st.container(border=True):
             st.markdown("Curiosidades:")
-            st.write(" Es considerada la especoie de mayor tamaño entre los delfines")
+            st.write(" Es considerada la especie de mayor tamaño entre los delfines")
             st.write(" Su nombre refleja el carácter depredador de la especie y se remonta a épocas antiguas")
             st.write("También se conoce como lobo de mar")
             st.write("La longevidad se estima de 50 a 60 años los machos y 80 a 90 años las hembras")
