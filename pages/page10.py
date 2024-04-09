@@ -42,8 +42,7 @@ def show_page():
             st.write("- Aguas tropicales y templadas")
         st.write("   ")
         st.write("   ")
-        st.write("Aquí puede escuchar el sonido del Delfín moteado del pantropical:")
-        st.audio("./sounds/....mp3",start_time=0)
+        st.write("Del Delfín moteado del pantropical no se encontró ningún audio")
         
         
         with st.container(border=True):

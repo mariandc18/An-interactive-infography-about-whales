@@ -40,9 +40,7 @@ def show_page():
             st.write("- Prefieren las aguas calidas")
         st.write("   ")
         st.write("   ")
-        st.write("Aquí puede escuchar el sonido del Delfín de pico largo:")
-        st.audio("./sounds/....mp3",start_time=0)
-        
+        st.write("Del Delfín de pico largo no se encontró ningún audio")
         
         with st.container(border=True):
             st.markdown("Curiosidades:")
