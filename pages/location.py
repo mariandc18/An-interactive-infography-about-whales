@@ -5,7 +5,7 @@ from streamlit_folium import folium_static
 from folium.plugins import MarkerCluster
 
 def location():
-    st.write("Aquí puede apreciar donde se han avistado varamiento de los diferentes cetáceos en Cuba")
+    st.write("Aquí puede apreciar dónde se han avistado varamientos de los diferentes cetáceos en Cuba")
     especie=st.multiselect('Selecciona las especies:',options=["Delfín de dientes estirados (Esteno)","Delfín de pico largo, delfín rotador",
     "Delfín moteado del Atlántico","Delfín moteado pantropical","Ballena Sei o boreal","Falsa orca",
     "Rorcual común (rorcual franco)","Calderón de aleta corta (ballena piloto)","Delfín de Risso (calderón gris)",
