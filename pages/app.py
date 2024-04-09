@@ -74,6 +74,10 @@ elif location_button:
     location.location()
 
 
-elección = st.sidebar.radio('Selecciona una opción:',"🗺️ Lugares donde se han observado en Cuba")
-if elección:
+elección = st.sidebar.radio('Selecciona una opción:',["🗺️ Lugares donde se han observado en Cuba",""])
+if 'mapa_mostrado' not in st.session_state:
+    st.session_state.mapa_mostrado = False
+
+if elección and not st.session_state.mapa_mostrado:
     location.location()
+    st.session_state.mapa_mostrado = True
