@@ -1,11 +1,8 @@
 import streamlit as st
 
-def page15():
+def show_page():
     col0,col1, col2, col3= st.columns([1,6,6,1])
-    with col0:
-        for _ in range(20):
-            st.write("   ")
-        st.button("Back")
+    
     with col1:
         st.title("Cachalote, ballena de esperma")
         st.image("./photos/ballena_de_esperma.jpg")
@@ -52,26 +49,4 @@ def page15():
             st.write(" Tiene una longevidad de 60 a 70 años")
             st.write(" Acusticamente se caracterizan por la emisón de pulsos de sonido denominados codas")
             st.write(" Está contemplada como una especie vulnerable a la extinción")
-    with col3:
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.button("Next")
+    

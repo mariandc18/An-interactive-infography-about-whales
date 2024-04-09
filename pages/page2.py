@@ -1,11 +1,7 @@
 import streamlit as st
 
-def page2():
+def show_page():
     col0,col1, col2, col3= st.columns([1,6,6,1])
-    with col0:
-        for _ in range(20):
-            st.write("   ")
-        st.button("Back")
     with col1:
         st.title("Rorcual común, rorcual franco")
         st.image("./photos/rorcual_comun.jpg")
@@ -60,28 +56,5 @@ def page2():
             st.write(" Solo se suelen ver en parejas")
             st.write(" Está considerada como una especie amenazada")
     
-    with col3:
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.button("Next")
 
         

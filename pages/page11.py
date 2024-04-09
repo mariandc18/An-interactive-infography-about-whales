@@ -1,11 +1,8 @@
 import streamlit as st
 
-def page11():
+def show_page():
     col0,col1, col2, col3= st.columns([1,6,6,1])
-    with col0:
-        for _ in range(20):
-            st.write("   ")
-        st.button("Back")
+    
     with col1:
         st.title("Delfín moteado del Atlántico")
         st.image("./photos/moteado.jpg")
@@ -52,27 +49,5 @@ def page11():
             st.write(" Las crías son confundidas con las del delfín tonina")
             st.write(" Es de los más activos que se encuentran en nuestras aguas")
     
-    with col3:
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.button("Next")
+    
         

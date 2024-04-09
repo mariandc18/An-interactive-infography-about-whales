@@ -1,11 +1,8 @@
 import streamlit as st
 
-def page7():
+def show_page():
     col0,col1, col2, col3= st.columns([1,6,6,1])
-    with col0:
-        for _ in range(20):
-            st.write("   ")
-        st.button("Back")
+    
     with col1:
         st.title("Falsa Orca")
         st.image("./photos/falsa_orca.jpg")
@@ -56,27 +53,5 @@ def page7():
             st.write(" Cuando salen a la superficie suelen sacar totalmente la cabeza y buena parte del cuerpo.")
             st.write("La longevidad se estima de 58 años los machos y 63 años las hembras")
             
-    with col3:
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.button("Next")
+    
         

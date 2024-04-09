@@ -1,11 +1,8 @@
 import streamlit as st
 
-def page6():
+def show_page():
     col0,col1, col2, col3= st.columns([1,6,6,1])
-    with col0:
-        for _ in range(20):
-            st.write("   ")
-        st.button("Back")
+    
     with col1:
         st.title("Orca, ballena asesina")
         st.image("./photos/asesina.jpg")
@@ -58,27 +55,5 @@ def page6():
             st.write(" Son animales muy activos")
             st.write(" En cautiverio se han registrado más ataques a personas que en vida libre, posiblemente por el estrés al que están sometidos al vivir en un espacio reducido")
     
-    with col3:
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.button("Next")
+    
         

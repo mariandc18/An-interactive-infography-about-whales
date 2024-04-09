@@ -1,11 +1,8 @@
 import streamlit as st
 
-def page10():
+def show_page():
     col0,col1, col2, col3= st.columns([1,6,6,1])
-    with col0:
-        for _ in range(20):
-            st.write("   ")
-        st.button("Back")
+    
     with col1:
         st.title("Delfín moteado pantropical")
         st.image("./photos/pantropical.jpg")
@@ -54,27 +51,5 @@ def page10():
             st.write(" Antiguamente esta especie y el Delfín moteado del Atlántico eran considerados la misma")
             st.write(" Es de los más activos que se encuentran en nuestras aguas")
     
-    with col3:
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.button("Next")
+    
         

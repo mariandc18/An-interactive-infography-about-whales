@@ -1,11 +1,7 @@
 import streamlit as st
 
-def page5():
+def show_page():
     col0,col1, col2, col3= st.columns([1,6,6,1])
-    with col0:
-        for _ in range(20):
-            st.write("   ")
-        st.button("Back")
     with col1:
         st.title("Delfín de Risso, calderón gris")
         st.image("./photos/risso.jpg")
@@ -53,27 +49,5 @@ def page5():
             st.write(" Suelen vivir hasta los 30 años")
             st.write(" Se les suele observar espiando a su alrededor, sacando la cabeza e incluso el cuerpo fuera del agua, el cual exponen en posición vertical")
     
-    with col3:
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.button("Next")
+
 

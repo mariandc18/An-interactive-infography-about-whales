@@ -1,11 +1,8 @@
 import streamlit as st
 
-def page16():
+def show_page():
     col0,col1, col2, col3= st.columns([1,6,6,1])
-    with col0:
-        for _ in range(20):
-            st.write("   ")
-        st.button("Back")
+    
     with col1:
         st.title("Zifio de Gervais")
         st.image("./photos/zifio_de_gervais.jpg")
@@ -51,26 +48,4 @@ def page16():
             st.write(" No se conocian especímenes vivos hasta 1998")
             st.write(" No existen datos sobre la población de la especie, o su estado de conservación")
     
-    with col3:
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.button("Next")
+    

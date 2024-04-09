@@ -1,11 +1,7 @@
 import streamlit as st
 
-def page4():
+def show_page():
     col0,col1, col2, col3= st.columns([1,6,6,1])
-    with col0:
-        for _ in range(20):
-            st.write("   ")
-        st.button("Back")
     with col1:
         st.title("Calderón de aleta corta, ballena piloto")
         st.image("./photos/pilot_whale.jpg")
@@ -52,28 +48,4 @@ def page4():
             st.markdown("Curiosidades:")
             st.write(" La longevidad de esta especie oscila entre 40 y 65 años")
             st.write(" Es una especie muy social con fuertes vínculos familiares")
-    
-    with col3:
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.button("Next")
 

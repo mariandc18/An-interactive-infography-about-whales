@@ -1,11 +1,8 @@
 import streamlit as st
 
-def page17():
+def show_page():
     col0,col1, col2, col3= st.columns([1,6,6,1])
-    with col0:
-        for _ in range(20):
-            st.write("   ")
-        st.button("Back")
+    
     with col1:
         st.title("Ballena de pico de Cuvier")
         st.image("./photos/ziphio_cuvier.jpg")
@@ -55,26 +52,4 @@ def page17():
             st.write(" Todos los individuos tienen cicatrices ondulantes dobles provocadas por los dientes de otros individuos")
             st.write(" El zifio de Cuvier es el mamífero que mayor profundidad y tiempo puede estar sumergido")
     
-    with col3:
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.button("Next")
+    

@@ -1,11 +1,7 @@
 import streamlit as st
 
-def page1():
+def show_page():
     col0,col1, col2, col3= st.columns([1,6,6,1])
-    with col0:
-        for _ in range(20):
-            st.write("   ")
-        st.button("Back")
     with col1:
         st.title("Ballena Sei o boreal")
         st.image("./photos/image1.jpg")
@@ -56,27 +52,5 @@ def page1():
             st.write(" El soplido dura de 40 a 60 segundos, seguido por una profunda zambullida de entre 5 a 15 minutos.")
             st.write(" Es uno de los cetáceos más rápidos alcanzando hasta los 47 km/h")
     
-    with col3:
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.button("Next")
+    
         

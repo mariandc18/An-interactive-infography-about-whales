@@ -1,11 +1,8 @@
 import streamlit as st
 
-def page3():
+def show_page():
     col0,col1, col2, col3= st.columns([1,6,6,1])
-    with col0:
-        for _ in range(20):
-            st.write("   ")
-        st.button("Back")
+
     with col1:
         st.title("Ballena jorobada, yubarta")
         st.image("./photos/jorobada.jpg")
@@ -56,26 +53,4 @@ def page3():
             st.write(" Esta especie puede alcanzar los 80 años de vida")
             st.write(" Es una de las especies más frecuentes en los mares cubanos")
     
-    with col3:
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.write("   ")
-        st.button("Next")
+    
