@@ -6,11 +6,7 @@ from folium.plugins import MarkerCluster
 
 def location():
     st.write("Aquí puede apreciar dónde se han avistado varamientos de los diferentes cetáceos en Cuba")
-    especie=st.multiselect('Selecciona las especies:',options=["Delfín de dientes estirados (Esteno)","Delfín de pico largo, delfín rotador",
-    "Delfín moteado del Atlántico","Delfín moteado pantropical","Ballena Sei o boreal","Falsa orca",
-    "Rorcual común (rorcual franco)","Calderón de aleta corta (ballena piloto)","Delfín de Risso (calderón gris)",
-    "Orca ballena asesina","Cachalote (ballena de esperma)","Ballena jorobada( yubarta)","Cachalote pigmeo","Cachalote enano",
-    "Zifio de Gervais","Ballena de pico de Cuvier"], default=[])
+    especie=st.multiselect('Selecciona las especies:',options=["Delfín de dientes estirados (Esteno)","Delfín de pico largo, delfín rotador","Delfín moteado del Atlántico","Delfín moteado pantropical","Ballena Sei o boreal","Falsa orca","Rorcual común (rorcual franco)","Calderón de aleta corta (ballena piloto)","Delfín de Risso (calderón gris)","Orca ballena asesina","Cachalote (ballena de esperma)","Ballena jorobada( yubarta)","Cachalote pigmeo","Cachalote enano","Zifio de Gervais","Ballena de pico de Cuvier"], default=[])
 
     m = folium.Map(location=[20.0, -75.0], zoom_start=7)
     if "Delfín de dientes estirados (Esteno)" in especie:
@@ -70,7 +66,7 @@ def location():
         folium.Marker([21.67,-79.99], popup='Delfín de Risso (calderón gris) - febrero 2004-1', icon=folium.Icon(color='Light gray')).add_to(m)
     if "Orca ballena asesina" in especie:
         folium.Marker([23.18,-82.214], popup='Orca ballena asesina - 1983-3', icon=folium.Icon(color='white')).add_to(m)
-        folium.Mark([23.13,-82.42], popup='Orca ballena asesina - agosto 1984-1', icon=folium.Icon(color='white')).add_to(m)
+        folium.Marker([23.13,-82.42], popup='Orca ballena asesina - agosto 1984-1', icon=folium.Icon(color='white')).add_to(m)
         folium.Marker([21.832444,-77.697712], popup='Orca ballena asesina - junio 1991-1', icon=folium.Icon(color='white')).add_to(m)
         folium.Marker([23.13,-82.42], popup='Orca ballena asesina - agosto 1994-4', icon=folium.Icon(color='white')).add_to(m)
         folium.Marker([22.41, -78.73], popup='Orca ballena asesina - 2005-4', icon=folium.Icon(color='white')).add_to(m)
@@ -158,3 +154,4 @@ def location():
 
 
     folium_static(m)
+location()

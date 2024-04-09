@@ -33,6 +33,7 @@ cuvier_button = st.sidebar.button("🐬 Ballena de pico de Cuvier", key='button_
 if st.session_state.inicio_clicked or inicio_button:
     Inicio.run_app()
     st.session_state.inicio_clicked = False # Resetea el estado para evitar ejecuciones múltiples
+
 elif sobre_cetaceos_button:
     pass
 elif boreal_button:
@@ -71,4 +72,8 @@ elif  cuvier_button:
     page17.show_page()
 elif location_button:
     location.location()
-                                           
+
+
+elección = st.sidebar.radio('Selecciona una opción:',"🗺️ Lugares donde se han observado en Cuba")
+if elección:
+    location.location()
