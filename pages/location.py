@@ -154,4 +154,3 @@ def location():
 
 
     folium_static(m)
-location()
