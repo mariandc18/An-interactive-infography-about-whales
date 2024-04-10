@@ -10,7 +10,7 @@ def show_page():
     st.markdown("[Audio](https://www.bing.com/videos/riverview/relatedvideo?&q=ballena+rorcual+comun+sonido&&mid=40A64D62F519F8958F7240A64D62F519F8958F72&&FORM=VRDGARhttps://www.bing.com/videos/riverview/relatedvideo?&q=ballena+rorcual+comun+sonido&&mid=40A64D62F519F8958F7240A64D62F519F8958F72&&FORM=VRDGAR)")
 
     st.header("Ballena jorobada",divider="blue")
-    st.markdown("[](https://www.bing.com/images/search?view=detailV2&ccid=OTgdme6j&id=D01602D2201EA6158647832B056FEE0B53DB50B2&thid=OIP.OTgdme6jliSAoVSgBSHzfgHaE8&mediaurl=https%3a%2f%2finfomarina.net%2fwp-content%2fuploads%2f2019%2f12%2fMegaptera-novaeangliae.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.39381d99eea3962480a154a00521f37e%3frik%3dslDbUwvubwUrgw%26pid%3dImgRaw%26r%3d0&exph=600&expw=900&q=Ballena+jorobada&simid=608003559770628676&FORM=IRPRST&ck=4000414CB13AE37B427F70170B51ED2C&selectedIndex=10&itb=0)")
+    st.markdown("[Texto](https://www.bing.com/images/search?view=detailV2&ccid=OTgdme6j&id=D01602D2201EA6158647832B056FEE0B53DB50B2&thid=OIP.OTgdme6jliSAoVSgBSHzfgHaE8&mediaurl=https%3a%2f%2finfomarina.net%2fwp-content%2fuploads%2f2019%2f12%2fMegaptera-novaeangliae.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.39381d99eea3962480a154a00521f37e%3frik%3dslDbUwvubwUrgw%26pid%3dImgRaw%26r%3d0&exph=600&expw=900&q=Ballena+jorobada&simid=608003559770628676&FORM=IRPRST&ck=4000414CB13AE37B427F70170B51ED2C&selectedIndex=10&itb=0)")
     st.markdown("[Wikipedia](https://www.bing.com/ck/a?!&&p=ea7dd1c964f18b35JmltdHM9MTcxMjM2MTYwMCZpZ3VpZD0wOTFkMTUxYS05YjgzLTY4ODItMDI5MS0wNmQyOWE5ZjY5NmYmaW5zaWQ9NTI3MA&ptn=3&ver=2&hsh=3&fclid=091d151a-9b83-6882-0291-06d29a9f696f&psq=Ballena+jorobada+origen+del+nombre&u=a1aHR0cHM6Ly9lcy53aWtpcGVkaWEub3JnL3dpa2kvTWVnYXB0ZXJhX25vdmFlYW5nbGlhZQ&ntb=1)")
     st.markdown("[audio](https://www.bing.com/ck/a?!&&p=973c5fdf6f711ad6JmltdHM9MTcxMjM2MTYwMCZpZ3VpZD0wOTFkMTUxYS05YjgzLTY4ODItMDI5MS0wNmQyOWE5ZjY5NmYmaW5zaWQ9NTY1MA&ptn=3&ver=2&hsh=3&fclid=091d151a-9b83-6882-0291-06d29a9f696f&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9QmFsbGVuYStqb3JvYmFkYSthdWRpbyZtaWQ9NjcxQUREMkZCNUI1NDE1QTA0OUI2NzFBREQyRkI1QjU0MTVBMDQ5QiZGT1JNPVZJUkU&ntb=1https://www.expertoanimal.com/ballenas/ballena-jorobada.html#anchor_)")
 
@@ -24,7 +24,7 @@ def show_page():
 
     st.header("Ballena asesina",divider="blue")
     st.markdown("[Foto](https://www.bing.com/images/search?view=detailV2&ccid=eHFvOoEc&id=59A145F16F27C11B5E11A8268E7A9BD85978E282&thid=OIP.eHFvOoEcY_6YmkMJTRKjhAHaE8&mediaurl=https%3a%2f%2ft2.ea.ltmcdn.com%2fes%2frazas%2f4%2f5%2f4%2forca-comun-o-ballena-asesina_454_0_600.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.78716f3a811c63fe989a43094d12a384%3frik%3dguJ4Wdibeo4mqA%26pid%3dImgRaw%26r%3d0&exph=400&expw=600&q=ballena+asesina&simid=608014331572661785&FORM=IRPRST&ck=049D291B1E210F9EB8391DC85CA33D41&selectedIndex=2&itb=0)")
-    st.markdown("[Audio](Whale Sounds | OrcaYouTube · WWF-CanadaJul 8, 2022)")
+    st.markdown("[Audio](Whale Sounds|OrcaYouTube·WWF-CanadaJul8,2022)")
 
     st.header("Falsa orca",divider="blue")
     st.markdown("[Foto](https://www.istockphoto.com/es/fotos/falsa-orca)")
@@ -33,3 +33,50 @@ def show_page():
     st.header("Esteno",divider="blue")
     st.markdown("[Foto](https://www.wjhg.com/content/news/Gulf-World-rough-toothed-dolphin-dies-from-pneumonia-567137201.html)")
     st.markdown("[Audio](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/reel/C5PUUNHve2_/&ved=2ahUKEwj86OaFu7GFAxUJgoQIHU8DBPcQwqsBegQIDhAF&usg=AOvVaw06HU7PFKCgnjQ8R8OBSxcv)")
+
+    st.header("Ballena de pico de Cuvier",divider="blue")
+    st.markdown("[Texto](https://www.sernapesca.cl/files/importacion/rescateyconservacion/fichasespecies_conservacion/zifios_o_cetaceospicudos/ballenapicudadecuvier.pdf)")
+    st.markdown("[Texto](https://litoraldegranada.ugr.es/el-litoral/el-litoral-sumergido/fauna/cordados-2/vertebrados/los-mamiferos-marinos/cetaceos/cetaceos-mar-de-alboran/ziphius-cavirostris/)")
+    st.markdown("[Foto](https://grupoportuguesa.files.wordpress.com/2012/10/zifio-de-curvier-ziphius-cavirostris-ricardo_fernandez_barrueco.jpg?w=640)")
+    st.markdown("[Audio](https://www.youtube.com/watch?si=MHuaJfi7oeClt4sL&embeds_referring_euri=https%3A%2F%2Fwww.google.com%2F&source_ve_path=Mjg2NjQsMTY0NTA2&feature=emb_share&v=G-UfSWa-AuE)")
+
+    st.header("Zifio de Gervais",divider="blue")
+    st.markdown("[Texto](https://www.fao.org/3/t0725e/t0725e16.pdf)")
+    st.markdown("[Foto](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNGxISdTMEQJS52btWGObEGn7c3hVreGlF9S8BGU4hjQ&s)")
+    st.markdown("[Audio](http://sharevideo1.com/v/Rnc0eW9ManhpME0=?t=ytb&f=co)")
+    
+    st.header("Ballena de esperma",divider="blue")
+    st.markdown("[Foto](https://www.google.com/imgres?q=cachalote%20pigmeo&imgurl=https%3A%2F%2Finaturalist-open-data.s3.amazonaws.com%2Fphotos%2F198282116%2Foriginal.jpg&imgrefurl=https%3A%2F%2Fcolombia.inaturalist.org%2Ftaxa%2F41464-Kogia-breviceps&docid=9drWpblx8fZq-M&tbnid=kTtPoDATARfunM&vet=12ahUKEwifluaF3bWFAxWdfjABHd1cAscQM3oECGMQAA..i&w=2048&h=1638&hcb=2&ved=2ahUKEwifluaF3bWFAxWdfjABHd1cAscQM3oECGMQAA)")
+    st.markdown("[Audio](https://youtu.be/jlGBsAxVWxQ?si=GYF1rBzOUFsQtyny)")
+
+    st.header("Cachalote enano",divider="blue")
+    st.markdown("[Texto](https://www.argentinat.org/taxa/41465-Kogia-sima)")    
+    st.markdown("[Texto](https://animales-acuaticos.com/cachalote-enano/)")
+    st.markdown("[Texto](https://bioweb.bio/faunaweb/mammaliaweb/FichaEspecie/Kogia%20sima)")
+    st.markdown("[Foto](https://animales-acuaticos.com/cachalote-enano/)")
+    st.markdown("[Audio](https://youtu.be/jlGBsAxVWxQ?si=GYF1rBzOUFsQtyny)")
+
+    st.header("Delfín Rotador",divider="blue")
+    st.markdown("[Texto](https://www.car-spaw-rac.org/?Delfin-rotador-Stenella-longirostris)")
+    st.markdown("[Texto](https://www.speedy-gomera.com/blog/es/20162903-delfin-moteado)")
+    st.markdown("[Foto](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTQMX57KGgLfUzjAlu3Z4gYYdESGB7btVGDLuyM7ODmA&s)")
+    
+    st.header("Cachalote pigmeo",divider="blue")
+    st.markdown("[Texto](https://www.sernapesca.cl/files/importacion/rescateyconservacion/fichasespecies_conservacion/cetaceos/cachalote_pigmeo.pdf)")
+    st.markdown("[Foto](https://inaturalist-open-data.s3.amazonaws.com/photos/198282116/original.jpg)")
+    st.markdown("[Audio](https://m.facebook.com/ProfepaOficial/videos/profepainforma-atenci%C3%B3n-a-varamiento-de-cachalote-pigmeo-kogia-breviceps-en-la-p/524994939247777/)")
+
+    st.header("Delfín moteado del Atlántico",divider="blue")
+    st.markdown("[Texto](https://www.speedy-gomera.com/blog/es/20162903-delfin-moteado)")
+    st.markdown("[Texto](https://www.google.com/imgres?q=Delf%C3%ADn%20del%20Atl%C3%A1ntico&imgurl=https%3A%2F%2Finaturalist-open-data.s3.amazonaws.com%2Fphotos%2F185187071%2Foriginal.jpg&imgrefurl=https%3A%2F%2Fcolombia.inaturalist.org%2Ftaxa%2F41503-Stenella-frontalis&docid=QQFu7jvyMugn9M&tbnid=H92xBkLNPiTTMM&vet=12ahUKEwj78JOu2LWFAxUOVTABHfwyCPUQM3oECFgQAA..i&w=2048&h=1335&hcb=2&ved=2ahUKEwj78JOu2LWFAxUOVTABHfwyCPUQM3oECFgQAA)")
+    st.markdown("[Foto](https://www.google.com/imgres?q=Delf%C3%ADn%20del%20Atl%C3%A1ntico&imgurl=https%3A%2F%2Finaturalist-open-data.s3.amazonaws.com%2Fphotos%2F185187071%2Foriginal.jpg&imgrefurl=https%3A%2F%2Fcolombia.inaturalist.org%2Ftaxa%2F41503-Stenella-frontalis&docid=QQFu7jvyMugn9M&tbnid=H92xBkLNPiTTMM&vet=12ahUKEwj78JOu2LWFAxUOVTABHfwyCPUQM3oECFgQAA..i&w=2048&h=1335&hcb=2&ved=2ahUKEwj78JOu2LWFAxUOVTABHfwyCPUQM3oECFgQAA)")
+    st.markdown("[Audio](http://sharevideo1.com/v/V3dvNHlITFU5eEU=?t=ytb&f=co)")
+    
+    st.header("Delfín moteado pantropical",divider="blue")
+    st.markdown("[Texto](https://animalia.bio/es/pantropical-spotted-dolphin)")
+    st.markdown("[Foto](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoR6kBrGNMiJF8fYY8eWOmNFC_hg7gr-3eLlWKI9HY2Q&s)")
+
+    st.header("Delfín molar,tonina",divider="blue")
+    st.markdown("[Foto](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGLPxngFt9zPds2flPt-smlbyzZ2lNXxdxG92178z9Aw&s)")
+    st.markdown("[Audio](https://youtu.be/yNCFjueBd6c?si=UrTj76iV_nDIaf87)")
+    
