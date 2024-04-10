@@ -35,7 +35,7 @@ def show_page():
             st.write("- Planton")
         
         if st.button("Migraciones"):
-            st.write("- No frecuenta los mismos sitios anno tras anno.")
+            st.write("- No frecuenta los mismos sitios anno tras año.")
             st.write("- En invierno migran desde las frías aguas subpolares a las aguas tropicales")
             st.write("- Se mueve en solitario o en grupos pequennos")
             

@@ -1,6 +1,9 @@
 import streamlit as st       
 def show_page():
     st.title("Referencias 📃")
+    st.header("Información de cada una de las especies", divider="blue")
+    st.markdown("Documento: Mamíferos acuaticos en Cuba_240403_112157")
+    
     st.header("Ballena boreal",divider="blue")
     st.markdown("[Foto](https://www.bing.com/images/search?view=detailV2&ccid=d8MahXom&id=3ECB1D842FBA2591738B016131BA6740F2FC5777&thid=OIP.d8MahXomIMj53u49xOvujwHaDq&mediaurl=https%3a%2f%2fwww.cuantoviven.org%2fwp-content%2fuploads%2f2021%2f02%2fballena-de-sei-1-2048x1015.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.77c31a857a2620c8f9deee3dc4ebee8f%3frik%3dd1f88kBnujFhAQ%26pid%3dImgRaw%26r%3d0&exph=1015&expw=2048&q=ballena+sei&simid=608013773242441903&FORM=IRPRST&ck=EF9495F2E98323E1E98DDF3FA97C20AB&selectedIndex=2&itb=0)")
     st.markdown("[Audio](https://www.bing.com/ck/a?!&&p=2ab61de990960543JmltdHM9MTcxMjYyMDgwMCZpZ3VpZD0wOTFkMTUxYS05YjgzLTY4ODItMDI5MS0wNmQyOWE5ZjY5NmYmaW5zaWQ9NTI3MA&ptn=3&ver=2&hsh=3&fclid=091d151a-9b83-6882-0291-06d29a9f696f&psq=ballena+sei+sonido&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj0yMTZ4Vm1tMEVVdw&ntb=1)")
